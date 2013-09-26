@@ -1,0 +1,1422 @@
+/*
+ * generated with CSS2Compass.class.php by Sebastian Pontow
+ * http://sebastianpontow.de/css2compass/
+ * Contact: me@sebastianpontow.de
+ */
+
+@import "compass/css3";
+//@import "base";
+
+%extend_1 {
+  display: block;
+  float: none;
+  margin: 0px ! important;
+}
+%extend_2 {
+  margin: 0px;
+  padding: 0px;
+  border: 0px none;
+  outline: 0px none;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: none repeat scroll 0 0 transparent;
+}
+%extend_3 {
+  padding: 20px 10px 0 0;
+  width: 100%;
+  float: none;
+}
+%extend_4 {
+  padding: 0px 0 10px;
+  width: 100%;
+  float: none;
+}
+%extend_5 {
+  padding: 0px 0 10px;
+  width: 100%;
+  float: none;
+}
+@font-face {
+  font-family: "proxima-nova";
+  font-style: normal;
+  font-weight: 900;
+  src: url('undefined');
+  /* (1) font-family was set before: old value: "chaparral-pro" - new value "chaparral-pro" */;
+  /* (2) font-style was set before: old value: italic - new value italic */;
+  /* (3) font-weight was set before: old value: 300 - new value 400 */;
+  /* (4) src was set before: old value: url('undefined') - new value url('undefined') */;
+  /* (5) font-family was set before: old value: "chaparral-pro" - new value "chaparral-pro" */;
+  /* (6) font-style was set before: old value: italic - new value italic */;
+  /* (7) font-weight was set before: old value: 400 - new value 600 */;
+  /* (8) src was set before: old value: url('undefined') - new value url('undefined') */;
+  /* (9) font-family was set before: old value: "chaparral-pro" - new value "chaparral-pro" */;
+  /* (10) font-style was set before: old value: italic - new value italic */;
+  /* (11) font-weight was set before: old value: 600 - new value 700 */;
+  /* (12) src was set before: old value: url('undefined') - new value url('undefined') */;
+  /* (13) font-family was set before: old value: "chaparral-pro" - new value "chaparral-pro" */;
+  /* (14) font-style was set before: old value: italic - new value normal */;
+  /* (15) font-weight was set before: old value: 700 - new value 300 */;
+  /* (16) src was set before: old value: url('undefined') - new value url('undefined') */;
+  /* (17) font-family was set before: old value: "chaparral-pro" - new value "chaparral-pro" */;
+  /* (18) font-style was set before: old value: normal - new value normal */;
+  /* (19) font-weight was set before: old value: 300 - new value 400 */;
+  /* (20) src was set before: old value: url('undefined') - new value url('undefined') */;
+  /* (21) font-family was set before: old value: "chaparral-pro" - new value "chaparral-pro" */;
+  /* (22) font-style was set before: old value: normal - new value normal */;
+  /* (23) font-weight was set before: old value: 400 - new value 600 */;
+  /* (24) src was set before: old value: url('undefined') - new value url('undefined') */;
+  /* (25) font-family was set before: old value: "chaparral-pro" - new value "chaparral-pro" */;
+  /* (26) font-style was set before: old value: normal - new value normal */;
+  /* (27) font-weight was set before: old value: 600 - new value 700 */;
+  /* (28) src was set before: old value: url('undefined') - new value url('undefined') */;
+  /* (29) font-family was set before: old value: "chaparral-pro" - new value "chaparral-pro-caption" */;
+  /* (30) font-style was set before: old value: normal - new value italic */;
+  /* (31) font-weight was set before: old value: 700 - new value 400 */;
+  /* (32) src was set before: old value: url('undefined') - new value url('undefined') */;
+  /* (33) font-family was set before: old value: "chaparral-pro-caption" - new value "chaparral-pro-caption" */;
+  /* (34) font-style was set before: old value: italic - new value italic */;
+  /* (35) font-weight was set before: old value: 400 - new value 700 */;
+  /* (36) src was set before: old value: url('undefined') - new value url('undefined') */;
+  /* (37) font-family was set before: old value: "chaparral-pro-caption" - new value "chaparral-pro-caption" */;
+  /* (38) font-style was set before: old value: italic - new value normal */;
+  /* (39) font-weight was set before: old value: 700 - new value 400 */;
+  /* (40) src was set before: old value: url('undefined') - new value url('undefined') */;
+  /* (41) font-family was set before: old value: "chaparral-pro-caption" - new value "chaparral-pro-caption" */;
+  /* (42) font-style was set before: old value: normal - new value normal */;
+  /* (43) font-weight was set before: old value: 400 - new value 700 */;
+  /* (44) src was set before: old value: url('undefined') - new value url('undefined') */;
+  /* (45) font-family was set before: old value: "chaparral-pro-caption" - new value "chaparral-pro-display" */;
+  /* (46) font-style was set before: old value: normal - new value italic */;
+  /* (47) font-weight was set before: old value: 700 - new value 400 */;
+  /* (48) src was set before: old value: url('undefined') - new value url('undefined') */;
+  /* (49) font-family was set before: old value: "chaparral-pro-display" - new value "chaparral-pro-display" */;
+  /* (50) font-style was set before: old value: italic - new value italic */;
+  /* (51) font-weight was set before: old value: 400 - new value 700 */;
+  /* (52) src was set before: old value: url('undefined') - new value url('undefined') */;
+  /* (53) font-family was set before: old value: "chaparral-pro-display" - new value "chaparral-pro-display" */;
+  /* (54) font-style was set before: old value: italic - new value normal */;
+  /* (55) font-weight was set before: old value: 700 - new value 400 */;
+  /* (56) src was set before: old value: url('undefined') - new value url('undefined') */;
+  /* (57) font-family was set before: old value: "chaparral-pro-display" - new value "chaparral-pro-display" */;
+  /* (58) font-style was set before: old value: normal - new value normal */;
+  /* (59) font-weight was set before: old value: 400 - new value 700 */;
+  /* (60) src was set before: old value: url('undefined') - new value url('undefined') */;
+  /* (61) font-family was set before: old value: "chaparral-pro-display" - new value "chaparral-pro-subhead" */;
+  /* (62) font-style was set before: old value: normal - new value italic */;
+  /* (63) font-weight was set before: old value: 700 - new value 400 */;
+  /* (64) src was set before: old value: url('undefined') - new value url('undefined') */;
+  /* (65) font-family was set before: old value: "chaparral-pro-subhead" - new value "chaparral-pro-subhead" */;
+  /* (66) font-style was set before: old value: italic - new value italic */;
+  /* (67) font-weight was set before: old value: 400 - new value 700 */;
+  /* (68) src was set before: old value: url('undefined') - new value url('undefined') */;
+  /* (69) font-family was set before: old value: "chaparral-pro-subhead" - new value "chaparral-pro-subhead" */;
+  /* (70) font-style was set before: old value: italic - new value normal */;
+  /* (71) font-weight was set before: old value: 700 - new value 400 */;
+  /* (72) src was set before: old value: url('undefined') - new value url('undefined') */;
+  /* (73) font-family was set before: old value: "chaparral-pro-subhead" - new value "chaparral-pro-subhead" */;
+  /* (74) font-style was set before: old value: normal - new value normal */;
+  /* (75) font-weight was set before: old value: 400 - new value 700 */;
+  /* (76) src was set before: old value: url('undefined') - new value url('undefined') */;
+  /* (77) font-family was set before: old value: "chaparral-pro-subhead" - new value "proxima-nova" */;
+  /* (78) font-style was set before: old value: normal - new value italic */;
+  /* (79) font-weight was set before: old value: 700 - new value 100 */;
+  /* (80) src was set before: old value: url('undefined') - new value url('undefined') */;
+  /* (81) font-family was set before: old value: "proxima-nova" - new value "proxima-nova" */;
+  /* (82) font-style was set before: old value: italic - new value italic */;
+  /* (83) font-weight was set before: old value: 100 - new value 300 */;
+  /* (84) src was set before: old value: url('undefined') - new value url('undefined') */;
+  /* (85) font-family was set before: old value: "proxima-nova" - new value "proxima-nova" */;
+  /* (86) font-style was set before: old value: italic - new value italic */;
+  /* (87) font-weight was set before: old value: 300 - new value 400 */;
+  /* (88) src was set before: old value: url('undefined') - new value url('undefined') */;
+  /* (89) font-family was set before: old value: "proxima-nova" - new value "proxima-nova" */;
+  /* (90) font-style was set before: old value: italic - new value italic */;
+  /* (91) font-weight was set before: old value: 400 - new value 600 */;
+  /* (92) src was set before: old value: url('undefined') - new value url('undefined') */;
+  /* (93) font-family was set before: old value: "proxima-nova" - new value "proxima-nova" */;
+  /* (94) font-style was set before: old value: italic - new value italic */;
+  /* (95) font-weight was set before: old value: 600 - new value 700 */;
+  /* (96) src was set before: old value: url('undefined') - new value url('undefined') */;
+  /* (97) font-family was set before: old value: "proxima-nova" - new value "proxima-nova" */;
+  /* (98) font-style was set before: old value: italic - new value italic */;
+  /* (99) font-weight was set before: old value: 700 - new value 800 */;
+  /* (100) src was set before: old value: url('undefined') - new value url('undefined') */;
+  /* (101) font-family was set before: old value: "proxima-nova" - new value "proxima-nova" */;
+  /* (102) font-style was set before: old value: italic - new value italic */;
+  /* (103) font-weight was set before: old value: 800 - new value 900 */;
+  /* (104) src was set before: old value: url('undefined') - new value url('undefined') */;
+  /* (105) font-family was set before: old value: "proxima-nova" - new value "proxima-nova" */;
+  /* (106) font-style was set before: old value: italic - new value normal */;
+  /* (107) font-weight was set before: old value: 900 - new value 100 */;
+  /* (108) src was set before: old value: url('undefined') - new value url('undefined') */;
+  /* (109) font-family was set before: old value: "proxima-nova" - new value "proxima-nova" */;
+  /* (110) font-style was set before: old value: normal - new value normal */;
+  /* (111) font-weight was set before: old value: 100 - new value 300 */;
+  /* (112) src was set before: old value: url('undefined') - new value url('undefined') */;
+  /* (113) font-family was set before: old value: "proxima-nova" - new value "proxima-nova" */;
+  /* (114) font-style was set before: old value: normal - new value normal */;
+  /* (115) font-weight was set before: old value: 300 - new value 400 */;
+  /* (116) src was set before: old value: url('undefined') - new value url('undefined') */;
+  /* (117) font-family was set before: old value: "proxima-nova" - new value "proxima-nova" */;
+  /* (118) font-style was set before: old value: normal - new value normal */;
+  /* (119) font-weight was set before: old value: 400 - new value 600 */;
+  /* (120) src was set before: old value: url('undefined') - new value url('undefined') */;
+  /* (121) font-family was set before: old value: "proxima-nova" - new value "proxima-nova" */;
+  /* (122) font-style was set before: old value: normal - new value normal */;
+  /* (123) font-weight was set before: old value: 600 - new value 700 */;
+  /* (124) src was set before: old value: url('undefined') - new value url('undefined') */;
+  /* (125) font-family was set before: old value: "proxima-nova" - new value "proxima-nova" */;
+  /* (126) font-style was set before: old value: normal - new value normal */;
+  /* (127) font-weight was set before: old value: 700 - new value 800 */;
+  /* (128) src was set before: old value: url('undefined') - new value url('undefined') */;
+  /* (129) font-family was set before: old value: "proxima-nova" - new value "proxima-nova" */;
+  /* (130) font-style was set before: old value: normal - new value normal */;
+  /* (131) font-weight was set before: old value: 800 - new value 900 */;
+  /* (132) src was set before: old value: url('undefined') - new value url('undefined') */;
+}
+a {
+  border-bottom: 1px dotted rgb(229, 219, 209);
+  @extend %extend_2;
+  color: rgb(140, 99, 58);
+  text-decoration: none;
+  /* (142) border-bottom was set before: old value: medium none - new value 1px dotted rgb(229, 219, 209) */;
+  &:active {
+    border-bottom: medium none;
+  }
+  &:visited {
+    border-bottom: medium none;
+  }
+  &:hover {
+    border-bottom: 1px dotted rgb(147, 30, 18);
+    color: rgb(147, 30, 18);
+    text-decoration: none;
+    /* (143) border-bottom was set before: old value: medium none - new value 1px dotted rgb(147, 30, 18) */;
+  }
+}
+.top-bar {
+  min-height: 33px;
+  line-height: 33px;
+  margin: 0px;
+  padding: 0px 0 0 10px;
+  width: auto;
+  position: relative;
+  &.expanded {
+    height: 100%;
+    /* (140) height was set before: old value: inherit - new value 100% */;
+  }
+  ul {
+    margin: 0px;
+    display: block;
+    height: 100%;
+    line-height: 33px;
+    list-style: none outside none;
+    width: 100%;
+    margin-bottom: 0px;
+    text-align: left;
+    /* (133) display was set before: old value: inline - new value block */;
+    /* (134) height was set before: old value: 33px - new value 100% */;
+    &.left {
+      float: none;
+      width: 100%;
+      margin-bottom: 0px;
+      /* (138) float was set before: old value: left - new value none */;
+      /* (139) width was set before: old value: auto - new value 100% */;
+      > li {
+        @extend %extend_1;
+      }
+    }
+    &.right {
+      float: none;
+      width: 100%;
+      > li {
+        @extend %extend_1;
+      }
+    }
+    > li {
+      background: none repeat scroll 0 0 transparent;
+      margin: 0px;
+      padding: 0px;
+      float: none;
+      border-bottom: 1px solid rgb(220, 220, 220);
+      /* (135) float was set before: old value: left - new value none */;
+      &:hover {
+        background: none repeat scroll 0 0 rgb(221, 227, 221);
+        a {
+          color: rgb(62, 62, 93);
+        }
+        &:not(.name) {
+          background: none repeat scroll 0 0 rgb(221, 227, 221);
+          a {
+            color: rgb(62, 62, 93);
+          }
+        }
+      }
+      &.active {
+        background: none repeat scroll 0 0 rgb(221, 227, 221);
+        a {
+          color: rgb(62, 62, 93);
+        }
+        &:not(.name) {
+          background: none repeat scroll 0 0 rgb(221, 227, 221);
+          a {
+            color: rgb(62, 62, 93);
+          }
+        }
+      }
+      a:not( {
+        &.button) {
+          color: rgb(62, 62, 93);
+          display: block;
+          font-size: 16px;
+          height: 33px;
+          line-height: 33px;
+          padding: 0px 9px;
+          /* (136) color was set before: old value: rgb(62, 62, 93) - new value rgb(62, 62, 93) */;
+          /* (137) font-size was set before: old value: 13px - new value 16px */;
+        }
+      }
+      &:focus:not( {
+        &.name) {
+          background: none repeat scroll 0 0 rgb(221, 227, 221);
+          a {
+            color: rgb(62, 62, 93);
+          }
+        }
+      }
+      &.has-dropdown.moved {
+        > .dropdown {
+          li:not( {
+            &.title) {
+              padding-bottom: 0px;
+              a {
+                padding: 8px 22.5px;
+                font-size: 14px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  section {
+    left: 0px;
+    position: relative;
+    width: auto;
+    > ul {
+      li a {
+        &:not(.button) {
+          padding-left: 22.5px ! important;
+        }
+      }
+    }
+  }
+}
+@media {
+  only screen {
+    and (max-width {
+      &: 600px) {
+      }
+    }
+  }
+  screen and {
+    (max-width: {
+      600px) {
+        .ILRisMobile a, .ILRisMobile a: hover;
+      }
+      320px) {
+      }
+    }
+  }
+}
+html {
+  @extend %extend_2;
+}
+body {
+  @extend %extend_2;
+  line-height: 1;
+  font-family: "proxima-nova",sans-serif;
+  font-size: 62.5%;
+  text-align: center;
+  /* (141) line-height was set before: old value: 1 - new value 1 */;
+}
+div {
+  @extend %extend_2;
+  &.mobile-search {
+    display: block;
+    float: right;
+    background-color: rgba(255, 255, 255, 0.9);
+    position: relative;
+    z-index: 100;
+    form {
+      display: none;
+    }
+  }
+  &.illustration-about {
+    height: 300px;
+    background: url('banner-about-600.jpg') no-repeat scroll left top transparent;
+    /* (168) height was set before: old value: 398px - new value 300px */;
+    /* (169) background was set before: old value: url('banner-about.jpg') no-repeat scroll left top transparent - new value url('banner-about-600.jpg') no-repeat scroll left top transparent */;
+  }
+  &#siteNavContainer {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(255, 255, 255);
+    overflow: visible;
+    min-width: 100%;
+    /* (150) width was set before: old value: 100% - new value 100% */;
+    /* (151) margin was set before: old value: 0px - new value 0px */;
+    /* (152) overflow was set before: old value: auto - new value visible */;
+    nav {
+      width: 100%;
+      height: 100%;
+      background-color: rgb(255, 255, 255);
+      margin: 0px;
+      padding: 0px;
+      float: left;
+      /* (153) width was set before: old value: 850px - new value 100% */;
+      /* (154) height was set before: old value: 24px - new value 100% */;
+      /* (155) margin was set before: old value: 0px - new value 0px */;
+      /* (156) padding was set before: old value: 0px - new value 0px */;
+    }
+    .socialNetworks {
+      height: 24px;
+      margin: 0px;
+      padding: 0px;
+      float: right;
+      display: none;
+      a {
+        border: medium none;
+      }
+    }
+  }
+  &#mainNav {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    float: left;
+    min-width: 100%;
+    background: none repeat scroll 0 0 rgb(111, 15, 16);
+    /* (157) width was set before: old value: 836px - new value 100% */;
+    /* (158) margin was set before: old value: 0px - new value 0px */;
+    ul {
+      margin: 0px;
+      padding: 0px;
+      /* (159) margin was set before: old value: 0px 0 0 12px - new value 0px */;
+      /* (160) padding was set before: old value: 0px - new value 0px */;
+      li {
+        margin: 0px;
+        padding: 0px;
+        list-style: none outside none;
+        background: none repeat scroll 0 0 transparent;
+        float: left;
+        font-size: 1.2em;
+        width: 100%;
+        border-bottom: 1px solid rgb(220, 220, 220);
+        /* (161) font-size was set before: old value: 1.2em - new value 1.2em */;
+        &#toggleMenu {
+          display: inherit;
+          height: 85px;
+          background: url('ilr-brand.gif') no-repeat scroll left top rgb(111, 15, 16);
+          border-bottom: medium none;
+          /* (162) display was set before: old value: none - new value inherit */;
+          img {
+            float: right;
+            margin-right: 10px;
+            padding-top: 50px;
+          }
+          span.gohome {
+            height: 84px;
+            width: 200px;
+            display: inline-block;
+          }
+        }
+        &.rightLink {
+          margin: 0px;
+          padding: 0px;
+          float: left;
+          border-bottom: medium none;
+          margin-bottom: 15px;
+        }
+        a {
+          border: medium none;
+          display: block;
+          font-weight: 400;
+          font-size: 1.4em;
+          margin: 0px;
+          padding: 10px 0;
+          color: rgb(45, 64, 99);
+          text-align: center;
+          text-decoration: none;
+          /* (163) font-weight was set before: old value: 600 - new value 400 */;
+          /* (164) font-size was set before: old value: 1.2em - new value 1.4em */;
+          /* (165) padding was set before: old value: 0px 10px 10px - new value 10px 0 */;
+        }
+        &:not(#toggleMenu) {
+          background-color: rgb(240, 240, 240);
+          margin: 0px;
+          float: none;
+        }
+      }
+    }
+    a {
+      &:hover {
+        color: rgb(166, 25, 25);
+      }
+      &:focus {
+        color: rgb(166, 25, 25);
+      }
+      &:active {
+        color: rgb(166, 25, 25);
+      }
+    }
+  }
+}
+span {
+  @extend %extend_2;
+}
+applet {
+  @extend %extend_2;
+}
+object {
+  @extend %extend_2;
+}
+iframe {
+  @extend %extend_2;
+}
+h1 {
+  @extend %extend_2;
+  font-family: "chaparral-pro","Palatino Linotype","Book Antiqua",Palatino,serif;
+  font-size: 2.5em;
+  font-weight: 400;
+  margin: 0px;
+  padding: 0px 0 12px;
+}
+h2 {
+  @extend %extend_2;
+  font-family: "chaparral-pro","Palatino Linotype","Book Antiqua",Palatino,serif;
+  font-size: 2em;
+  font-weight: 400;
+  margin: 0px;
+  padding: 0px;
+  line-height: 1;
+}
+h3 {
+  @extend %extend_2;
+  font-family: "chaparral-pro","Palatino Linotype","Book Antiqua",Palatino,serif;
+  font-size: 1.6em;
+  font-weight: normal;
+  margin: 0px;
+  padding: 0px;
+}
+h4 {
+  @extend %extend_2;
+}
+h5 {
+  @extend %extend_2;
+}
+h6 {
+  @extend %extend_2;
+}
+p {
+  @extend %extend_2;
+  font-size: 1.6em;
+  line-height: 1.6;
+  &.quote {
+    font-size: 1.4em;
+    line-height: 1.6;
+    margin: 0px;
+    padding: 15px 0 0;
+  }
+}
+blockquote {
+  @extend %extend_2;
+}
+pre {
+  @extend %extend_2;
+}
+abbr {
+  @extend %extend_2;
+}
+acronym {
+  @extend %extend_2;
+}
+address {
+  @extend %extend_2;
+}
+big {
+  @extend %extend_2;
+}
+cite {
+  @extend %extend_2;
+}
+code {
+  @extend %extend_2;
+}
+del {
+  @extend %extend_2;
+}
+dfn {
+  @extend %extend_2;
+}
+em {
+  @extend %extend_2;
+}
+font {
+  @extend %extend_2;
+}
+img {
+  @extend %extend_2;
+  margin: 0px;
+  padding: 0px;
+  border: 0px none;
+  &.rss {
+    padding: 0px 3px 0 0;
+    vertical-align: top;
+  }
+}
+ins {
+  @extend %extend_2;
+}
+kbd {
+  @extend %extend_2;
+}
+q {
+  @extend %extend_2;
+}
+s {
+  @extend %extend_2;
+}
+samp {
+  @extend %extend_2;
+}
+small {
+  @extend %extend_2;
+}
+strike {
+  @extend %extend_2;
+}
+strong {
+  @extend %extend_2;
+}
+tt {
+  @extend %extend_2;
+}
+var {
+  @extend %extend_2;
+}
+b {
+  @extend %extend_2;
+}
+u {
+  @extend %extend_2;
+}
+i {
+  @extend %extend_2;
+}
+center {
+  @extend %extend_2;
+}
+dl {
+  @extend %extend_2;
+}
+dt {
+  @extend %extend_2;
+}
+dd {
+  @extend %extend_2;
+}
+ol {
+  @extend %extend_2;
+  list-style: none outside none;
+}
+ul {
+  @extend %extend_2;
+  list-style: none outside none;
+  margin: 0px;
+  padding: 0px;
+}
+li {
+  @extend %extend_2;
+  font-size: 1.6em;
+  margin: 0px;
+  padding: 0px;
+  background: none repeat scroll 0 0 transparent;
+  &#hideMe {
+    display: none;
+  }
+}
+fieldset {
+  @extend %extend_2;
+}
+form {
+  @extend %extend_2;
+}
+label {
+  @extend %extend_2;
+}
+legend {
+  @extend %extend_2;
+}
+table {
+  @extend %extend_2;
+}
+caption {
+  @extend %extend_2;
+}
+tbody {
+  @extend %extend_2;
+}
+tfoot {
+  @extend %extend_2;
+}
+thead {
+  @extend %extend_2;
+}
+tr {
+  @extend %extend_2;
+}
+th {
+  @extend %extend_2;
+}
+td {
+  @extend %extend_2;
+}
+:focus {
+  outline: 0px none;
+}
+article {
+  display: block;
+}
+aside {
+  display: block;
+  p {
+    font-size: 1.4em;
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    margin: 0px;
+    padding: 0px 0 20px;
+  }
+  a {
+    border-bottom: medium none;
+    &:hover {
+      border-bottom: medium none;
+    }
+  }
+  h1 {
+    border-bottom: medium none;
+    margin-bottom: 10px;
+    padding-bottom: 1px;
+    display: block;
+    /* (188) border-bottom was set before: old value: 1px solid rgb(166, 124, 82) - new value medium none */;
+  }
+  .events {
+    background-color: rgb(255, 255, 255);
+    border-right: 1px solid rgb(115, 99, 87);
+    border-bottom: 1px solid rgb(175, 157, 132);
+    border-left: medium none;
+    margin: 0px;
+    padding: 0px;
+    background: none repeat scroll 0 0 rgb(231, 225, 204);
+    border-top: 1px solid rgb(175, 157, 132);
+    /* (189) border-bottom was set before: old value: 1px solid rgb(115, 99, 87) - new value 1px solid rgb(175, 157, 132) */;
+    /* (190) border-left was set before: old value: 1px solid rgb(115, 99, 87) - new value medium none */;
+    .calendar {
+      background-color: rgb(231, 225, 204);
+      border: medium none;
+      margin: 0px;
+      padding: 10px 10px 20px;
+      width: 100%;
+      height: auto;
+      @include box-shadow(none);
+      /* (191) background-color was set before: old value: rgb(222, 215, 186) - new value rgb(231, 225, 204) */;
+      /* (192) border was set before: old value: 5px solid rgb(255, 255, 255) - new value medium none */;
+      /* (193) margin was set before: old value: 0px - new value 0px */;
+      /* (194) padding was set before: old value: 20px 20px 0 - new value 10px 10px 20px */;
+      /* (195) width was set before: old value: 205px - new value 100% */;
+      h1 {
+        border-bottom: medium none;
+      }
+    }
+  }
+  .news {
+    background: none repeat scroll 0 0 rgb(231, 225, 204);
+    margin: 0px;
+    padding: 10px 10px 20px;
+    /* (197) background was set before: old value: url('newsvideobkgd.gif') repeat-x scroll left top rgb(153, 136, 110) - new value none repeat scroll 0 0 rgb(231, 225, 204) */;
+    /* (198) padding was set before: old value: 25px 20px 30px - new value 10px 10px 20px */;
+    a {
+      color: rgb(85, 66, 44);
+      /* (204) color was set before: old value: rgb(255, 255, 255) - new value rgb(85, 66, 44) */;
+      &:hover {
+        color: rgb(54, 47, 45);
+        border-bottom: 1px dotted rgb(186, 165, 134);
+      }
+    }
+    p {
+      color: rgb(85, 66, 44);
+    }
+  }
+  .video {
+    background: none repeat scroll 0 0 rgb(231, 225, 204);
+    border-bottom: 1px solid rgb(175, 157, 132);
+    margin: 0px;
+    padding: 10px 0 20px 10px;
+    height: auto;
+    /* (199) background was set before: old value: url('newsvideobkgd.gif') repeat-x scroll left top rgb(153, 136, 110) - new value none repeat scroll 0 0 rgb(231, 225, 204) */;
+    /* (200) border-bottom was set before: old value: 1px solid rgb(115, 99, 87) - new value 1px solid rgb(175, 157, 132) */;
+    /* (201) padding was set before: old value: 25px 20px 0 - new value 10px 0 20px 10px */;
+    /* (202) height was set before: old value: auto - new value auto */;
+    a {
+      color: rgb(85, 66, 44);
+      /* (203) color was set before: old value: rgb(255, 255, 255) - new value rgb(85, 66, 44) */;
+      &:hover {
+        color: rgb(54, 47, 45);
+        border-bottom: 1px dotted rgb(186, 165, 134);
+      }
+    }
+    img {
+      padding: 0px 0 5px;
+    }
+    p {
+      color: rgb(85, 66, 44);
+    }
+    em.duration {
+      font-size: 0.9em;
+    }
+  }
+}
+details {
+  display: block;
+}
+figcaption {
+  display: block;
+}
+figure {
+  display: block;
+}
+footer {
+  display: block;
+  background: url('footerbkgd.gif') repeat-x scroll left top rgb(54, 54, 54);
+  padding: 0px;
+  min-width: 0px;
+  width: 100%;
+  clear: both;
+  margin: 0px;
+  /* (205) min-width was set before: old value: 950px - new value 0px */;
+  /* (206) width was set before: old value: auto - new value 100% */;
+}
+header {
+  display: block;
+}
+hgroup {
+  display: block;
+}
+nav {
+  display: block;
+  &.tabs {
+    background: url('navbkgd.gif') repeat-x scroll left top rgb(222, 215, 186);
+    margin: 0px;
+    padding: 0px;
+    height: 40px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    z-index: 25;
+    overflow: hidden;
+    ul li {
+      font-family: "chaparral-pro","Palatino Linotype","Book Antiqua",Palatino,serif;
+      font-size: 1.9em;
+      padding: 10px 20px;
+      float: left;
+      a {
+        border-bottom: medium none;
+        color: rgb(0, 0, 0);
+        &:hover {
+          border-bottom: medium none;
+        }
+      }
+    }
+  }
+}
+section {
+  display: block;
+}
+.hasCampaign {
+  background: url('superwrapperbkgd.gif') repeat-x scroll left top rgb(255, 255, 255);
+  .main {
+    padding: 40px 35px 30px 40px;
+  }
+}
+.wide {
+  background: url('superwrapperbkgd.gif') repeat-x scroll left top rgb(255, 255, 255);
+}
+.superWrapper {
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  background: none repeat scroll 0 0 transparent;
+  /* (144) margin was set before: old value: 0px auto - new value 0px */;
+}
+.layoutWrapper {
+  background-color: rgb(255, 255, 255);
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  overflow: hidden;
+  /* (145) margin was set before: old value: 0px auto - new value 0px */;
+  /* (146) width was set before: old value: 950px - new value 100% */;
+}
+.bannerContainer {
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  height: 85px;
+  background-color: rgb(255, 255, 255);
+  overflow: hidden;
+  display: none;
+  .banner {
+    background-color: rgb(255, 255, 255);
+    margin: 0px auto;
+    padding: 0px;
+    width: 950px;
+    height: 75px;
+  }
+}
+.lockup {
+  margin: 0px;
+  padding: 0px;
+  float: left;
+}
+#cu-identity-wrap {
+  height: 50px;
+  background: none repeat scroll 0 0 rgb(255, 255, 255);
+  display: inherit;
+  /* (147) display was set before: old value: none - new value inherit */;
+}
+#cu-identity-content {
+  position: relative;
+  margin: 0px 0 0 10px;
+  width: auto;
+  height: 50px;
+  background: url('cornell.gif') no-repeat scroll 0 0 transparent;
+  /* (148) margin was set before: old value: 0px auto - new value 0px 0 0 10px */;
+  /* (149) width was set before: old value: 950px - new value auto */;
+  a {
+    position: absolute;
+    display: block;
+    border: medium none;
+    text-indent: -1000em;
+    text-decoration: none;
+  }
+  img {
+    display: none;
+  }
+}
+#insignia-link {
+  width: 170px;
+  height: 45px;
+}
+#search-form {
+  position: absolute;
+  top: 18px;
+  right: 50%;
+  margin-right: -460px;
+  width: 300px;
+  display: none;
+  form {
+    margin: 0px;
+    padding: 0px;
+    text-align: right;
+  }
+  label {
+    color: rgb(0, 0, 0);
+    font-size: 1.1em;
+  }
+}
+#search-form-query {
+  padding: 3px;
+  width: 145px;
+  height: 14px;
+  border: medium none;
+  font-family: Arial,Helvetica,sans-serif;
+  font-size: 1.2em;
+  font-weight: normal;
+  color: rgb(0, 0, 0);
+  background: url('header_search.gif') repeat-x scroll left top rgb(243, 243, 243);
+  vertical-align: middle;
+}
+#search-form-submit {
+  padding: 0px 2px 3px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(229, 229, 229) rgb(179, 179, 179) rgb(179, 179, 179) rgb(229, 229, 229);
+  font-family: Arial,Helvetica,sans-serif;
+  font-size: 1.1em;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+  background: none repeat scroll 0 0 rgb(242, 242, 242);
+  vertical-align: middle;
+}
+.ILRis {
+  margin: 0px;
+  padding: 0px;
+  height: 398px;
+  position: relative;
+  display: none;
+  a {
+    &.learnMore {
+      background-color: rgb(148, 30, 18);
+      border: 1px solid rgb(137, 101, 87);
+      margin: 0px;
+      padding: 0px;
+      width: 110px;
+      height: 25px;
+      position: absolute;
+      top: 300px;
+      left: 90px;
+      z-index: 20;
+      display: none;
+      color: rgb(255, 255, 255);
+      text-align: center;
+      text-decoration: none;
+      @include text-shadow(1px 1px 1px rgb(68, 68, 68));
+      @include border-radius(10px);
+      @include box-shadow(0px 3px 4px rgb(0, 0, 0));
+      /* (166) display was set before: old value: block - new value none */;
+      &:hover {
+        background-color: rgb(112, 3, 3);
+      }
+    }
+    &.learnMoreAltPos {
+      &:hover {
+        background-color: rgb(112, 3, 3);
+      }
+      display: none;
+    }
+  }
+}
+.ILRisMobile {
+  display: inherit;
+  /* (167) display was set before: old value: none - new value inherit */;
+  li {
+    height: 40px;
+    text-align: center;
+    &.notSelected {
+      border-bottom: medium none;
+      background: url('tabbkgd.gif') repeat-x scroll left top rgb(222, 215, 186);
+      padding-left: 0px;
+    }
+  }
+  nav.top-bar {
+    li {
+      a {
+        font-family: "chaparral-pro","Palatino Linotype","Book Antiqua",Palatino,serif;
+        color: rgb(0, 0, 0);
+      }
+      &:not(.name) {
+        a {
+          padding-top: 5px;
+        }
+      }
+    }
+  }
+}
+.welcome {
+  background: url('tabbkgd.gif') repeat-x scroll left top rgb(222, 215, 186);
+  float: left;
+}
+.future {
+  background: url('tabbkgd.gif') repeat-x scroll left top rgb(222, 215, 186);
+  float: left;
+}
+.current {
+  background: url('tabbkgd.gif') repeat-x scroll left top rgb(222, 215, 186);
+  float: left;
+}
+.alumni {
+  background: url('tabbkgd.gif') repeat-x scroll left top rgb(222, 215, 186);
+  float: left;
+}
+.professional {
+  background: url('tabbkgd.gif') repeat-x scroll left top rgb(222, 215, 186);
+  float: left;
+}
+.selected {
+  background: url('tabselectedbkgd.gif') repeat-x scroll left top rgb(255, 255, 255);
+  border-right: medium none;
+  border-bottom: medium none;
+  border-left: medium none;
+  /* (170) border-right was set before: old value: 1px solid rgb(153, 134, 117) - new value medium none */;
+  /* (171) border-bottom was set before: old value: 1px solid rgb(255, 255, 255) - new value medium none */;
+  /* (172) border-left was set before: old value: 1px solid rgb(153, 134, 117) - new value medium none */;
+}
+.borders {
+  border-right: medium none;
+  border-bottom: medium none;
+  /* (173) border-right was set before: old value: 1px solid rgb(153, 134, 117) - new value medium none */;
+  /* (174) border-bottom was set before: old value: 1px solid rgb(199, 178, 154) - new value medium none */;
+}
+.content {
+  background: url('contentbkgd257.gif') repeat-y scroll left top rgb(255, 255, 255);
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  text-align: left;
+  position: relative;
+  z-index: 2;
+  overflow: hidden;
+  border-top: 1px solid rgb(153, 134, 117);
+  /* (175) width was set before: old value: 950px - new value 100% */;
+  .mainContent {
+    background: none repeat scroll 0 0 rgb(255, 255, 255);
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    float: none;
+    /* (176) width was set before: old value: 693px - new value 100% */;
+    /* (177) float was set before: old value: left - new value none */;
+  }
+  aside {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    float: none;
+    /* (186) width was set before: old value: 257px - new value 100% */;
+    /* (187) float was set before: old value: left - new value none */;
+  }
+}
+.mainContent {
+  .main {
+    margin: 0px;
+    overflow: hidden;
+    padding: 20px 10px;
+    height: auto;
+  }
+  .secondary {
+    background: none repeat scroll 0 0 rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    margin: 0px;
+    padding: 10px 10px 20px 0;
+    height: auto;
+    overflow: hidden;
+    border-top: 1px solid rgb(175, 157, 132);
+    /* (180) background was set before: old value: url('secondarybkgd.gif') repeat-x scroll left top rgb(244, 242, 233) - new value none repeat scroll 0 0 rgb(255, 255, 255) */;
+    /* (181) padding was set before: old value: 0px 0 0 40px - new value 10px 10px 20px 0 */;
+    /* (182) height was set before: old value: 270px - new value auto */;
+  }
+}
+.main {
+  .leftShort {
+    margin: 0px;
+    padding: 10px 40px 0 0;
+    width: 185px;
+    float: left;
+    @extend %extend_3;
+    p {
+      line-height: 1.4;
+    }
+  }
+  .rightLong {
+    margin: 0px;
+    padding: 10px 0 0;
+    width: 375px;
+    float: left;
+    @extend %extend_3;
+    p {
+      line-height: 1.4;
+    }
+  }
+  .leftNarrow {
+    p {
+      line-height: 1.4;
+    }
+    @extend %extend_3;
+  }
+  .rightNarrow {
+    p {
+      line-height: 1.4;
+    }
+    @extend %extend_3;
+  }
+  .videoRight {
+    @extend %extend_3;
+  }
+  .leftEven {
+    @extend %extend_3;
+  }
+  .rightEven {
+    @extend %extend_3;
+  }
+  .leftThumbnail {
+    @extend %extend_3;
+  }
+  .rightThumbnail {
+    @extend %extend_3;
+  }
+  img.divider {
+    padding: 25px 0 20px;
+    margin: 0px;
+    width: 100%;
+    height: 1px;
+    /* (178) margin was set before: old value: 0px 0 0 -25px - new value 0px */;
+    /* (179) width was set before: old value: 644px - new value 100% */;
+  }
+}
+.secondary {
+  h2 {
+    font-size: 2em;
+    margin: 0px 0 11px;
+  }
+  h3 {
+    font-size: 2em;
+    margin: 0px 0 11px;
+  }
+  .navigation {
+    margin: 0px;
+    padding: 0px 10px;
+    width: 100%;
+    float: none;
+    /* (183) padding was set before: old value: 20px 0 0 - new value 0px 10px */;
+    /* (184) width was set before: old value: 300px - new value 100% */;
+    /* (185) float was set before: old value: left - new value none */;
+    a {
+      border-bottom: medium none;
+      color: rgb(0, 0, 0);
+      &:hover {
+        border-bottom: 1px dotted rgb(147, 30, 18);
+        color: rgb(147, 30, 18);
+      }
+    }
+    img {
+      margin: 0px 0 0 -25px;
+      padding: 0px 0 10px;
+      display: none;
+    }
+  }
+  .ILRpeople {
+    background-color: rgb(64, 36, 10);
+    margin: 0px;
+    padding: 0px;
+    width: 353px;
+    height: 279px;
+    float: left;
+    display: none;
+  }
+}
+.calendar {
+  p {
+    padding-top: 10px;
+    a {
+      color: rgb(85, 66, 44);
+      border-bottom: 1px dotted rgb(195, 185, 158);
+      &:hover {
+        color: rgb(158, 118, 77);
+        border-bottom: 1px dotted rgb(158, 118, 77);
+      }
+    }
+  }
+  h1 {
+    border-bottom: 1px solid rgb(198, 156, 109);
+  }
+  li {
+    font-size: 1.4em;
+    line-height: 1.3;
+    margin: 0px;
+    padding: 0px 10px 10px 50px;
+    /* (196) padding was set before: old value: 0px 0 10px 50px - new value 0px 10px 10px 50px */;
+    a {
+      color: rgb(150, 110, 69);
+      border-bottom: 1px dotted rgb(195, 185, 158);
+      &:hover {
+        color: rgb(54, 47, 45);
+        border-bottom: 1px dotted rgb(85, 66, 44);
+      }
+    }
+    em {
+      font-family: "Palatino Linotype","Book Antiqua",Palatino,serif;
+      color: rgb(85, 66, 44);
+      font-size: 1.4em;
+      font-style: normal;
+      margin: 0px 0 0 -50px;
+      padding-right: 15px;
+      width: 30px;
+      height: 20px;
+      display: inline-block;
+    }
+  }
+}
+.brownBackground {
+  background: url('secondarybkgd.gif') repeat-x scroll left top rgb(244, 242, 233);
+  margin: -270px auto 0;
+  padding: 0px;
+  width: 100%;
+  height: 270px;
+  position: relative;
+  z-index: 1;
+  clear: both;
+  display: none;
+}
+.socialIcon {
+  margin: 0px 0 0 2px;
+  padding: 0px;
+  width: 21px;
+  height: 20px;
+  display: inline-block;
+  background-image: url('social-sprite-small.gif');
+  background-color: rgb(255, 255, 255);
+  border: medium none;
+}
+.facebook {
+  background-position: 0px 0;
+}
+.youTube {
+  background-position: -21px 0;
+}
+.twitter {
+  background-position: -42px 0;
+}
+.footerContent {
+  margin: 0px auto;
+  padding: 10px 0 20px 10px;
+  width: auto;
+  text-align: left;
+  overflow: auto;
+  /* (207) padding was set before: old value: 0px - new value 10px 0 20px 10px */;
+  /* (208) width was set before: old value: 950px - new value auto */;
+  a {
+    border-bottom: 1px dotted rgb(70, 70, 70);
+    color: rgb(172, 172, 172);
+    &:hover {
+      border-bottom: 1px dotted rgb(255, 255, 255);
+      color: rgb(255, 255, 255);
+    }
+  }
+  ul li {
+    color: rgb(172, 172, 172);
+    font-size: 1.6em;
+    line-height: 1.8;
+  }
+}
+.footerBrand {
+  margin: 0px;
+  padding: 2px 0 0 40px;
+  width: 260px;
+  float: left;
+  @extend %extend_4;
+  a {
+    border: medium none;
+    &:hover {
+      border: medium none;
+    }
+  }
+}
+.footerNav1 {
+  margin: 0px;
+  padding: 20px 0 40px;
+  width: 170px;
+  float: left;
+  @extend %extend_5;
+}
+.footerNav2 {
+  margin: 0px;
+  padding: 20px 0 40px;
+  width: 220px;
+  float: left;
+  @extend %extend_5;
+}
+.footerNav3 {
+  width: 241px;
+  margin: 0px;
+  padding: 0px;
+  float: left;
+  @extend %extend_5;
+}
+.footerTranslate {
+  margin: 0px;
+  padding: 25px 0 0 25px;
+  float: left;
+  display: none;
+}
+.flag {
+  width: 18px;
+  height: 12px;
+  display: inline-block;
+  background-image: url('flag-sprite.gif');
+  background-color: rgb(0, 0, 0);
+  color: transparent;
+  vertical-align: bottom;
+  border: medium none ! important;
+  margin-bottom: 3px;
+}
+.french {
+  background-position: 0px 0;
+}
+.german {
+  background-position: -19px 0;
+}
+.italian {
+  background-position: -38px 0;
+}
+.portuguese {
+  background-position: -57px 0;
+}
+.spanish {
+  background-position: -76px 0;
+}
+.japanese {
+  background-position: -95px 0;
+}
+.korean {
+  background-position: -114px 0;
+}
+.chinese {
+  background-position: -133px 0;
+}
+.czech {
+  background-position: -152px 0;
+}
+.arabic {
+  background-position: -171px 0;
+}
+.footerCopyright {
+  margin: 0px;
+  padding: 0px 0 10px;
+  text-align: left;
+  width: 100%;
+  float: none;
+  /* (209) margin was set before: old value: 40px 0 0 - new value 0px */;
+  /* (210) padding was set before: old value: 0px 0 0 25px - new value 0px 0 10px */;
+  /* (211) text-align was set before: old value: center - new value left */;
+}
+.toggle-search {
+  float: right;
+  width: 38.5px;
+  height: 35.6px;
+  margin: 6px 5px 0 0;
+  border: 1px solid rgb(221, 221, 221);
+  background: url('icon-search.png') no-repeat scroll center center rgb(255, 255, 255);
+}
+.bridge {
+  .footerBrand {
+    @extend %extend_4;
+  }
+  .main img {
+    &.divider {
+      margin: 0px;
+      width: 100%;
+    }
+  }
+}
+.cs_control {
+  display: block;
+}
+audio:not([controls]) {
+  display: none;
+}
+.profProg .main {
+  img.divider {
+    margin: 0px;
+    width: 100%;
+  }
+}
